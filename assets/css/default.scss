@@ -492,10 +492,14 @@ body.nav-opened {
 	}
 }
 
+#content {
+	min-height: 1500px;
+}
+
 #footer {
 	padding-top: 55px;
 	padding-bottom: 55px;
-	background-color: #eee;
+	//background-color: #eee;
 	font-size: 12px;
 	.address, .contact {
 		dl {

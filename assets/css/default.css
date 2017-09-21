@@ -815,10 +815,12 @@ body.nav-opened #side-nav {
   body.nav-opened #side-nav .nav-content {
     right: 0; }
 
+#content {
+  min-height: 1500px; }
+
 #footer {
   padding-top: 55px;
   padding-bottom: 55px;
-  background-color: #eee;
   font-size: 12px; }
   #footer .address dl dt, #footer .address dl dd, #footer .contact dl dt, #footer .contact dl dd {
     font-size: 12px;

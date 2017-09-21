@@ -1,376 +1,328 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>우정E&amp;C</title>
-	
-	<link href="//fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	<link href="//fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
-	<link href="/assets/fontello/css/fontello.css" rel="stylesheet">
-	<link href="/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/assets/css/default.css" rel="stylesheet">
-	
-	<!-- favicon -->	
-	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="/favicon/assets/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-	<link rel="manifest" href="/assets/favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-	<!--// favicon -->
-			
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
+<link href="/assets/css/main.css" rel="stylesheet">
 </head>
-<body class="nav-opened">
-	<nav id="top-nav" class="visible-lg">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="affiliates">
-						<ul>
-							<li><a href="//woojungbsc.co.kr" target="_blank" onclick="this.blur();">우정BSC</a></li>
-							<li><a href="//bio.woojungbsc.co.kr" target="_blank">바이오사업본부</a></li>
-							<li><a class="active" href="/">우정E&amp;C</a></li>
-							<li><a href="//www.biosafemedicare.co.kr" target="_blank">BSMS</a></li>
-							<li><a href="//service.woojungbsc.co.kr" target="_blank">INNOSERVICE</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-6">
-					<div class="util">
-						<ul>
-							<li><a href="#">HOME</a></li>
-							<li><a href="#">LOGIN</a></li>
-							<li><a href="#">JOIN</a></li>
-							<li><a href="#">CART</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-6 col-xs-push-6 hidden-lg">
-					<button class="btn btn-link btn-open-side-nav"><i class="icon-menu"></i></button>
-				</div>
-				<div class="col-xs-6 col-xs-pull-6 col-lg-pull-0 col-lg-3">
-					<h1 class="logo"><a href="/"><span class="sr-only">우정E&amp;C</span></a></h1>
-				</div>
-				<div class="col-lg-9 visible-lg">
-					<nav class="nav">
-						<ul>
-							<li class="has-child">
-								<a href="#"><span></span>우정 E&amp;C</a>
-								<ul>
-									<li><a href="#">회사소개</a></li>
-									<li><a href="#">사업영역</a></li>
-									<li><a href="#">찾아오시는 길</a></li>
-								</ul>
-							</li>
-							<li class="has-child active">
-								<a href="#"><span></span>실험동물실 솔루션</a>
-								<ul>
-									<li class="has-child">
-										<a href="#">장비</a>
-										<ul>
-											<li><a href="#">실험동물실 관리 소프트웨어</a></li>
-											<li><a href="#">하우징시스템</a></li>
-											<li><a href="#">아쿠아틱라인</a></li>
-											<li><a href="#">격리밀폐시스템</a></li>
-											<li><a href="#">운반 솔루션</a></li>
-											<li><a href="#">국내 제작</a></li>
-											<li><a href="#">연구 분석 시스템</a></li>
-											<li><a href="#">국내 제작</a></li>
-											<li><a href="#">핸들링</a></li>
-											<li><a href="#">국내 제작</a></li>
-											<li><a href="#">세척시스템</a></li>
-											<li><a href="#">국내 제작</a></li>
-											<li><a href="#">자동화시스템</a></li>
-											<li><a href="#">데이터관리</a></li>
-											<li><a href="#">멸균</a></li>
-											<li><a href="#">국내 제작</a></li>
-										</ul>
-									</li>
-									<li class="has-child">
-										<a href="#">소모품</a>
-										<ul>
-											<li><a href="#">깔짚</a></li>
-											<li><a href="#">사료</a></li>
-											<li><a href="#">엔리치먼트</a></li>
-											<li><a href="#">BI</a></li>
-											<li><a href="#">세척&amp;소독제</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="has-child">
-								<a href="#"><span></span>제약산업솔루션</a>
-								<ul>
-									<li class="has-child">
-										<a href="#">제약장비</a>
-										<ul>
-											<li><a href="#">과산화수소증기멸균</a></li>
-											<li><a href="#">아이솔레이터/큐브</a></li>
-											<li><a href="#">제약세척기</a></li>
-										</ul>
-									</li>
-									<li class="has-child">
-										<a href="#">멸균검증</a>
-										<ul>
-											<li><a href="#">BI</a></li>
-											<li><a href="#">CI</a></li>
-											<li><a href="#">Bacterial Endotoxin Test reagent</a></li>
-											<li><a href="#">Ames Test</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="has-child">
-								<a href="#"><span></span>건축솔루션</a>
-								<ul>
-									<li class="has-child">
-										<a href="#">InnoViva 실험동물실현대화</a>
-										<ul>
-											<li><a href="#">건축프로세스</a></li>
-											<li><a href="#">EcoModel</a></li>
-											<li><a href="#">시공사례</a></li>
-										</ul>
-									</li>
-									<li class="has-child">
-										<a href="#">Bio clean room(GMP)</a>
-										<ul>
-											<li><a href="#">건축프로세스</a></li>
-											<li><a href="#">시공사례</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li class="has-child">
-								<a href="#"><span></span>고객지원</a>
-								<ul>
-									<li><a href="#">다운로드</a></li>
-									<li><a href="#">견적요청/건축솔루션컨설팅/기타문의</a></li>
-									<li><a href="#">공지사항</a></li>
-									<li><a href="#">Q&amp;A</a></li>
-								</ul>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="side-nav" class="hidden-lg" role="presentation">
-		<div class="nav-content">
-			<div class="nav-header">
-				<button type="button" class="btn btn-link btn-close-side-nav"><img src="/assets/images/ico_close.png" alt="닫기"></button>
-				<h1 class="logo"><a href="#"><span class="sr-only">우정E&amp;C</span></a></h1>
-			</div>
-			<div class="nav-body">
-				<nav class="nav">
-					<ul>
-						<li class="has-child">
-							<a href="#">우정 E&amp;C</a>
-							<ul>
-								<li><a href="#">회사소개</a></li>
-								<li><a href="#">사업영역</a></li>
-								<li><a href="#">찾아오시는 길</a></li>
-							</ul>
-						</li>
-						<li class="has-child">
-							<a href="#">실험동물실 솔루션</a>
-							<ul>
-								<li class="has-child">
-									<a href="#">장비</a>
-									<ul>
-										<li><a href="#">실험동물실 관리 소프트웨어</a></li>
-										<li><a href="#">하우징시스템</a></li>
-										<li><a href="#">아쿠아틱라인</a></li>
-										<li><a href="#">격리밀폐시스템</a></li>
-										<li><a href="#">운반 솔루션</a></li>
-										<li><a href="#">국내 제작</a></li>
-										<li><a href="#">연구 분석 시스템</a></li>
-										<li><a href="#">국내 제작</a></li>
-										<li><a href="#">핸들링</a></li>
-										<li><a href="#">국내 제작</a></li>
-										<li><a href="#">세척시스템</a></li>
-										<li><a href="#">국내 제작</a></li>
-										<li><a href="#">자동화시스템</a></li>
-										<li><a href="#">데이터관리</a></li>
-										<li><a href="#">멸균</a></li>
-										<li><a href="#">국내 제작</a></li>
-									</ul>
-								</li>
-								<li class="has-child">
-									<a href="#">소모품</a>
-									<ul>
-										<li><a href="#">깔짚</a></li>
-										<li><a href="#">사료</a></li>
-										<li><a href="#">엔리치먼트</a></li>
-										<li><a href="#">BI</a></li>
-										<li><a href="#">세척&amp;소독제</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="has-child">
-							<a href="#">제약산업솔루션</a>
-							<ul>
-								<li class="has-child">
-									<a href="#">제약장비</a>
-									<ul>
-										<li><a href="#">과산화수소증기멸균</a></li>
-										<li><a href="#">아이솔레이터/큐브</a></li>
-										<li><a href="#">제약세척기</a></li>
-									</ul>
-								</li>
-								<li class="has-child">
-									<a href="#">멸균검증</a>
-									<ul>
-										<li><a href="#">BI</a></li>
-										<li><a href="#">CI</a></li>
-										<li><a href="#">Bacterial Endotoxin Test reagent</a></li>
-										<li><a href="#">Ames Test</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="has-child">
-							<a href="#">건축솔루션</a>
-							<ul>
-								<li class="has-child">
-									<a href="#">InnoViva실험동물실현대화</a>
-									<ul>
-										<li><a href="#">건축프로세스</a></li>
-										<li><a href="#">EcoModel</a></li>
-										<li><a href="#">시공사례</a></li>
-									</ul>
-								</li>
-								<li class="has-child">
-									<a href="#">Bio clean room(GMP)</a>
-									<ul>
-										<li><a href="#">건축프로세스</a></li>
-										<li><a href="#">시공사례</a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="has-child">
-							<a href="#">고객지원</a>
-							<ul>
-								<li><a href="#">다운로드</a></li>
-								<li><a href="#">견적요청/건축솔루션컨설팅/기타문의</a></li>
-								<li><a href="#">공지사항</a></li>
-								<li><a href="#">Q&amp;A</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
+<body>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/top_nav.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/side_nav.php"); ?>
 	<main id="content">
-		
-	</main>
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-9 col-lg-10">
-					<div class="address">
-						<dl>
-							<dt>주소</dt>
-							<dd><address>경기도 수원시 영통구 광교로 145 차세대융합기술연구원 B동 3층 (주)우정비에스씨</address></dd>
-						</dl>
+		<section id="visual">
+			<ul>
+				<li style="background-image: url(/assets/images/main/img_visual_1.jpg);">
+					<div class="container">
+						<div>
+							<h2>NO.1 GLOBAL BIO <br class="hidden-lg">BUSINESS SOLUTION</h2>
+							<p>
+								Our products are manufactured in our international facilities in China, Malaysia and South Korea.<br>
+								The product and services are sold via our worldwide sales network, spanning photovoltaic markets in Europe
+							</p>
+						</div>
 					</div>
-					<div class="contact">
-						<dl>
-							<dt>TEL</dt>
-							<dd>031-888-9369</dd>
-							<dt>FAX</dt>
-							<dd>031-888-9368</dd>
-							<dt>E-mail</dt>
-							<dd><a href="mailto:wj@woojungbsc.co.kr" target="_blank">wj@woojungbsc.co.kr</a></dd>
-						</dl>
+				</li>
+				<li style="background-image: url(/assets/images/main/img_visual_1.jpg);">
+					<div class="container">
+						<div>
+							<h2>NO.1 GLOBAL BIO <br class="hidden-lg">BUSINESS SOLUTION</h2>
+							<p>
+								Our products are manufactured in our international facilities in China, Malaysia and South Korea.<br>
+								The product and services are sold via our worldwide sales network, spanning photovoltaic markets in Europe
+							</p>
+						</div>
 					</div>
-					<div class="copyright">
-						<p>
-							COPYRIGHT (C) 2017 WOOJUNGBSC.,CO.LTD.<br class="visible-xs">
-							ALL RIGHTS RESERVED.<br class="hidden-lg">
-							SITE BY <a href="http://movementk.com" target="_blank">MOVEMENT K GROUP</a>.
-						</p>
+				</li>
+				<li style="background-image: url(/assets/images/main/img_visual_1.jpg);">
+					<div class="container">
+						<div>
+							<h2>NO.1 GLOBAL BIO <br class="hidden-lg">BUSINESS SOLUTION</h2>
+							<p>
+								Our products are manufactured in our international facilities in China, Malaysia and South Korea.<br>
+								The product and services are sold via our worldwide sales network, spanning photovoltaic markets in Europe
+							</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		<section id="media">
+			<div class="container">
+				<div class="media-content">
+					<div class="media-view">
+						<div class="row">
+							<div class="col-xs-12 col-sm-6 col-lg-5 col-lg-offset-1">
+								<div class="embed-responsive embed-responsive-4by3">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/c2eCme8ZE0E?rel=0" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-lg-4 col-lg-offset-1">
+								<div class="details">
+									<span class="category">E&amp;C MEDIA</span>
+									<h2>4차산업시대 미래를 대비하는 실험동물실 자동화솔루션</h2>
+									<span class="bar"></span>
+									<p>많은 분들이 간과하는 실험동물실의 깔짚처리. 이제 대한민국도 해결책에 대하여 고민해야 할 시기 입니다.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="media-list">
+						<ul>
+							<li><a href="#media" style="background-image: url(/assets/images/main/thumb_media_1.jpg);"><span class="sr-only">#1</span><span class="bar"></span></a></li>
+							<li><a href="#media" style="background-image: url(/assets/images/main/thumb_media_1.jpg);"><span class="sr-only">#2</span><span class="bar"></span></a></li>
+							<li><a href="#media" style="background-image: url(/assets/images/main/thumb_media_1.jpg);"><span class="sr-only">#3</span><span class="bar"></span></a></li>
+							<li><a href="#media" style="background-image: url(/assets/images/main/thumb_media_1.jpg);"><span class="sr-only">#4</span><span class="bar"></span></a></li>
+							<li><a href="#media" style="background-image: url(/assets/images/main/thumb_media_1.jpg);"><span class="sr-only">#5</span><span class="bar"></span></a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-3 col-lg-2">
-					<div class="family">
-						<div class="dropup">
-							<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
-								FAMILY SITE
-								<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu">
-								<li><a href="//woojungbsc.co.kr" target="_blank">우정BSC</a></li>
-								<li><a href="//enc.woojungbsc.co.kr" target="_blank">우정E&amp;C</a></li>
-								<li><a href="//www.biosafemedicare.co.kr" target="_blank">BSMS</a></li>
-								<li><a href="//service.woojungbsc.co.kr" target="_blank">INNOSERVICE</a></li>
-							</ul>
+			</div>
+		</section>
+		<section id="search">
+			<div class="container">
+				<h2>PRODUCT <b>SEARCH</b></h2>
+				<form action="#">
+					<div class="form-group">
+						<label class="sr-only" for="product-name">제품명</label>
+						<input type="text" class="form-control" id="product-name" placeholder="제품명을 입력해주세요">
+						<button type="submit" class="btn btn-link btn-search"><i class="icon-search"></i><span class="sr-only">검색</span></button>
+				  	</div>
+				</form>
+			</div>
+		</section>
+		<div id="business">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<div class="business-item business-item-1">
+							<div class="back"></div>
+							<div class="text">
+								<h4>실험동물실</h4>
+								<span class="bar"></span>
+								<p>
+									동물실험실의 기획과 설계, 장비제안 및 설치,<br>
+									그리고 유지관리까지! One stop turn key solution을<br>
+									제공합니다.
+								</p>
+								<a href="#">자세히 보기</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="business-item business-item-2">
+							<div class="back"></div>
+							<div class="text">
+								<h4><a href="#">건축시공</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6">
+						<div class="business-item business-item-3">
+							<div class="back"></div>
+							<div class="text">
+								<h4><a href="#">제약산업</a></h4>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+		<section id="product">
+			<div class="container">
+				<h4>NEW PRODUCT</h4>
+				<div class="product-list">
+					<ul>
+						<li>
+							<figure>
+								<img class="img-responsive" src="/assets/images/main/img_product_1.jpg">
+								<figcaption>
+									<h5>Dumbbells</h5>
+									<p>SOLID POLYPROPYLENE로 제작된 물품입니다</p>
+									<a class="more" href="#">자세히 보기</a>
+								</figcaption>
+							</figure>
+							<span class="line"></span>
+						</li>
+						<li>
+							<figure>
+								<img class="img-responsive" src="/assets/images/main/img_product_2.jpg">
+								<figcaption>
+									<h5>Dumbbells</h5>
+									<p>SOLID POLYPROPYLENE로 제작된 물품입니다</p>
+									<a class="more" href="#">자세히 보기</a>
+								</figcaption>
+							</figure>
+							<span class="line"></span>
+						</li>
+						<li>
+							<figure>
+								<img class="img-responsive" src="/assets/images/main/img_product_3.jpg">
+								<figcaption>
+									<h5>Dumbbells</h5>
+									<p>SOLID POLYPROPYLENE로 제작된 물품입니다</p>
+									<a class="more" href="#">자세히 보기</a>
+								</figcaption>
+							</figure>
+							<span class="line"></span>
+						</li>
+						<li>
+							<figure>
+								<img class="img-responsive" src="/assets/images/main/img_product_4.jpg">
+								<figcaption>
+									<h5>Dumbbells</h5>
+									<p>SOLID POLYPROPYLENE로 제작된 물품입니다</p>
+									<a class="more" href="#">자세히 보기</a>
+								</figcaption>
+							</figure>
+							<span class="line"></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<div id="shortcut">
+			<div class="container">
+				<ul class="row">
+					<li class="col-xs-12 col-sm-5 col-sm-offset-1 col-lg-3 col-lg-offset-0">
+						<a href="#" class="shortcut-item shortcut-item-1">
+							<h5>공지사항</h5>
+							<p>우정비에스씨가 알려드리는 <br>공지사항 입니다</p>
+						</a>
+					</li>
+					<li class="col-xs-12 col-sm-5 col-sm-offset-1 col-lg-3 col-lg-offset-0">
+						<a href="#" class="shortcut-item shortcut-item-2">
+							<h5>Q&amp;A</h5>
+							<p>궁금하신 사항은 무엇이든 <br>물어보세요</p>
+						</a>
+					</li>
+					<li class="col-xs-12 col-sm-5 col-sm-offset-1 col-lg-3 col-lg-offset-0">
+						<a href="#" class="shortcut-item shortcut-item-3">
+							<h5>견적요청 및 문의</h5>
+							<p>우정비에스씨의 전문가들이 요구에 <br>맞는 견적을 제공해 드릴 것입니다</p>
+						</a>
+					</li>
+					<li class="col-xs-12 col-sm-5 col-sm-offset-1 col-lg-3 col-lg-offset-0">
+						<a href="#" class="shortcut-item shortcut-item-4">
+							<h5>다운로드</h5>
+							<p>제품관련 파일을 다운로드 <br>받으실 수 있습니다</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
+	<script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
 	<script>
 		(function($) {
-			$(document).on("click", "#header .btn-open-side-nav", function() {
-				$("body").addClass("nav-opened");
-			});
-			$(document).on("click", "#side-nav .btn-close-side-nav", function() {
-				$("body").removeClass("nav-opened");
-			});
-			$(document).on("click", "#side-nav .nav li > a", function(e) {
-				if ($(this).siblings('ul').length > 0) {
-					if ($(this).parent().hasClass('active')) {
-						$(this).parent().removeClass('active');
-					} else {
-						$(this).parent().siblings('.active').removeClass('active');
-						$(this).parent().addClass('active');
-					}
-					e.preventDefault();
+			
+			$("#visual ul").bxSlider({
+				controls: false,
+				buildPager: function(slideIndex) {
+					return "<span class='sr-only'>"+ slideIndex +"</span>";
 				}
 			});
-			$(document).on("mouseenter focus", "#header .nav ul > li > a", function(e) {
-				//if ($(this).parent().hasClass('active')) {
-				//	$(this).parent().removeClass('active');
-				//} else {
-					$(this).parent().siblings('.active').removeClass('active');
-					$(this).parent().addClass('active');
-				//}
-				//e.preventDefault();
+			
+			var productSliderDefaultOpt = {
+				controls: false,
+				minSlides: 1,
+				maxSlides: 1,
+				moveSlides: 1,
+				slideWidth: 300,
+				buildPager: function(slideIndex) {
+					return "<span class='sr-only'>"+ slideIndex +"</span>";
+				}
+			};
+			
+			var productSlider = $("#product .product-list ul").bxSlider(productSliderDefaultOpt);
+			
+			var mediaSliderDefaultOpt = {
+				pager: false,
+				minSlides: 2,
+				maxSlides: 2,
+				moveSlides: 1,
+				slideWidth: 110,
+				slideMargin: 10,
+				prevText: "<i class='icon-left-open-1'></i>",
+				nextText: "<i class='icon-right-open-1'></i>",
+				onSliderLoad: function(currentIndex) {
+					var $currentElem = $('#media .media-list ul li:not(.bx-clone):eq('+ currentIndex +')');
+					$currentElem.addClass('active');
+				}
+			};
+
+			var mediaSlider = $("#media .media-list ul").bxSlider(mediaSliderDefaultOpt);
+			
+			$(window).on('load resize', function() {
+				
+				// 미디어 슬라이더
+				var mediaSliderOpt = {};
+							
+				mediaSlider.reloadSlider($.extend(mediaSliderOpt, mediaSliderDefaultOpt));
+				
+				var mediaContainerWidth = $('#media .container:eq(0)').outerWidth();
+								
+				if (mediaContainerWidth >= 750) {
+					mediaSlider.reloadSlider($.extend(mediaSliderOpt, mediaSliderDefaultOpt, {
+						minSlides: 4,
+						maxSlides: 4,
+						slideWidth: 140,
+						slideMargin: 20
+					}));
+				}
+				
+				if (mediaContainerWidth >= 970) {
+					mediaSlider.reloadSlider($.extend(mediaSliderOpt, mediaSliderDefaultOpt, {
+						minSlides: 5,
+						maxSlides: 5,
+						slideWidth: 145,
+						slideMargin: 30
+					}));
+				}
+				
+				if (mediaContainerWidth >= 1200) {
+					mediaSlider.reloadSlider($.extend(mediaSliderOpt, mediaSliderDefaultOpt, {
+						minSlides: 5,
+						maxSlides: 5,
+						slideWidth: 170,
+						slideMargin: 30
+					}));
+				}
+				
+				// 프로덕트 슬라이더
+				var productSliderOpt = {};
+				
+				productSlider.reloadSlider($.extend(productSliderOpt, productSliderDefaultOpt));
+				
+				var productContainerWidth = $('#product .container:eq(0)').outerWidth();
+								
+				if (productContainerWidth >= 750) {
+					productSlider.reloadSlider($.extend(productSliderOpt, productSliderDefaultOpt, {
+						minSlides: 2,
+						maxSlides: 2,
+						slideWidth: 310,
+						slideMargin: 40,
+					}));
+				}
+				/*
+				if (productContainerWidth >= 970) {
+					productSlider.reloadSlider($.extend(productSliderOpt, productSliderDefaultOpt, {
+						minSlides: 5,
+						maxSlides: 5,
+						slideWidth: 145,
+						slideMargin: 30
+					}));
+				}
+				*/
+				if (productContainerWidth >= 1200) {
+					productSlider.reloadSlider($.extend(productSliderOpt, productSliderDefaultOpt, {
+						minSlides: 4,
+						maxSlides: 4,
+						slideWidth: 270,
+						slideMargin: 30
+					}));
+				}
+				
 			});
-			$(document).on("mouseleave", "#header .nav, #header .nav > ul > li", function(e) {
-				$(this).find("li.active").removeClass("active");
-			});
+			
 		})(jQuery);
 	</script>
 </body>

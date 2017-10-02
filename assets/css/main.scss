@@ -381,9 +381,6 @@
 		position: relative;
 		margin-left: -10px;
 		margin-right: -10px;
-		background-repeat: no-repeat;
-		background-position: 50% 50%;
-		background-size: cover;
 		color: #fff;
 		text-align: center;
 		.back {
@@ -392,6 +389,9 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
 		}
 		.text {
 			z-index: 1;

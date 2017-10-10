@@ -9,6 +9,9 @@
 .icon-pencil:before { content: '\e807'; } /* '' */
 .icon-info-circled:before { content: '\e808'; } /* '' */
 .icon-check:before { content: '\e809'; } /* '' */
+.icon-location:before { content: '\e80a'; } /* '' */
+.icon-phone:before { content: '\e80b'; } /* '' */
+.icon-mail:before { content: '\e80c'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
 .icon-left-open:before { content: '\f007'; } /* '' */
 .icon-menu:before { content: '\f008'; } /* '' */
@@ -17,3 +20,4 @@
 .icon-angle-double-right:before { content: '\f101'; } /* '' */
 .icon-angle-left:before { content: '\f104'; } /* '' */
 .icon-angle-right:before { content: '\f105'; } /* '' */
+.icon-fax:before { content: '\f1ac'; } /* '' */

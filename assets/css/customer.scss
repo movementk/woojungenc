@@ -1,0 +1,284 @@
+@import 'common';
+
+.customer {
+    
+}
+
+@mixin titi {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.titi {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.search-form {
+    position: relative;
+    .form-group {
+        .form-control {
+            height: 45px;
+            padding-right: 50px;
+        }
+    }
+    .btn-search {
+        .btn-default {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            border-radius: 0;
+            width: 45px;
+            height: 43px;
+            border: 0;
+            i {
+                font-size: 14px;
+                color: #e10013;
+            }
+            &:hover, &:focus {
+                background: none;
+                opacity: .7;
+            }
+        }
+    }
+    @media(min-width: $sm) {
+        .form-group {
+            .form-control {
+                padding-right: 60px;
+                height: 57px;
+            }
+        }
+        .btn-search {
+            .btn-default {
+                width: 57px;
+                height: 55px;
+            }
+        }
+    }
+}
+
+
+.page-nav {
+    text-align: center;
+    .pagination {
+        margin: 0;
+        li {
+            a {
+                border: 0;
+                background: none !important;
+                color: #aeaeae;
+                font-size: 18px;
+                @include titi();
+                &:hover, &:focus {
+                    color: #e10013;
+                }
+            }
+            &.active {
+                a {
+                    color: #e10013;
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+            }
+            &.first,
+            &.prev,
+            &.next,
+            &.last {
+                a {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+            &.prev {
+                a {
+                    padding-right: 10px;
+                }
+            }
+            &.next {
+                a {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.download {
+    background-image: url(/assets/images/introduction/future_bg.jpg);
+    .article-header {
+        text-align: center;
+        padding: 35px 0 37px;
+        .search-txt {
+            font-size: 13px;
+            color: #666;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        @media(min-width: $sm) {
+            text-align: right;
+            padding: 45px 0 35px;
+            .search-txt {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+        @media(min-width: $md) {
+            padding: 70px 0 65px;
+        }
+    }
+    .article-content {
+        padding-bottom: 100px;
+        @media(min-width: $sm) {
+            padding-bottom: 140px;
+        }
+        @media(min-width: $md) {
+            padding-bottom: 120px;
+        }
+        .table-wrap {
+            .table {
+                margin: 0;
+                thead {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                            border: 0;
+                            padding: 20px 0;
+                            text-align: center;
+                            background-color: #e7e7e7;
+                            &:nth-of-type(3) {
+                                display: none;
+                            }
+                            &:nth-of-type(4) {
+                                display: none;
+                            }
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                                &:nth-of-type(3) {
+                                    display: table-cell;
+                                }
+                                &:nth-of-type(4) {
+                                    display: table-cell;
+                                }
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 13px;
+                            color: #666;
+                            font-weight: 300;
+                            border: 0;
+                            padding: 0;
+                            padding-bottom: 5px;
+                            > div {
+                                text-align: center;
+                                height: 95px;
+                                line-height: 95px;
+                                background-color: #fff;
+                                figure {
+                                    line-height: 95px;
+                                    .img-responsive {
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                            a {
+                                img {
+                                    display: inline-block;
+                                    width: 18px;
+                                    @media(min-width: $sm) {
+                                        width: 26px;
+                                    }
+                                }
+                            }
+                            &:nth-of-type(3) {
+                                display: none;
+                            }
+                            &:nth-of-type(4) {
+                                display: none;
+                            }
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                                &:nth-of-type(3) {
+                                    display: table-cell;
+                                }
+                                &:nth-of-type(4) {
+                                    display: table-cell;
+                                }
+                            }
+                        }
+                        &:first-child {
+                            td {
+                                padding-top: 12px;
+                            }
+                        }
+                        &:last-child {
+                            td {
+                                padding-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .page-nav {
+            margin-top: 45px;
+            @media(min-width: $sm) {
+                margin-top: 50px;
+            }
+            @media(min-width: $md) {
+                margin-top: 70px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -937,4 +937,32 @@ a {
       #content.animal .example ul.row li:nth-of-type(3n+1) {
         clear: both; } }
 
+#content.gmp .overview .features .feature-item {
+  margin-top: 50px;
+  text-align: center; }
+  #content.gmp .overview .features .feature-item i {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%; }
+  #content.gmp .overview .features .feature-item h5 {
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: #2b2b2b; }
+  #content.gmp .overview .features .feature-item p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #555;
+    word-break: keep-all; }
+#content.gmp .overview .features .feature-item-1 i {
+  background-image: url(/assets/images/construct/ico_microscope.png); }
+#content.gmp .overview .features .feature-item-2 i {
+  background-image: url(/assets/images/construct/ico_bio.png); }
+#content.gmp .overview .features .feature-item-3 i {
+  background-image: url(/assets/images/construct/ico_solution.png); }
+#content.gmp .example {
+  background: none; }
+
 /*# sourceMappingURL=construct.css.map */

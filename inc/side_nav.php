@@ -76,20 +76,11 @@
 					<li class="has-child">
 						<a href="#">건축솔루션</a>
 						<ul>
-							<li class="has-child">
+							<li>
                                 <a href="/construct/animal.php">InnoViva 실험동물실현대화</a>
-                                <ul>
-                                    <li><a href="#">건축프로세스</a></li>
-                                    <li><a href="#">EcoModel</a></li>
-                                    <li><a href="#">시공사례</a></li>
-                                </ul>
                             </li>
-                            <li class="has-child">
+                            <li>
                                 <a href="/construct/gmp.php">Bio clean room(GMP)</a>
-                                <ul>
-                                    <li><a href="#">건축프로세스</a></li>
-                                    <li><a href="#">시공사례</a></li>
-                                </ul>
                             </li>
 						</ul>
 					</li>

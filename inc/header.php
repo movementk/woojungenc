@@ -13,9 +13,9 @@
 						<li class="has-child">
 							<a href="#"><span></span>우정 E&amp;C</a>
 							<ul>
-								<li><a href="#">회사소개</a></li>
-								<li><a href="#">사업영역</a></li>
-								<li><a href="#">찾아오시는 길</a></li>
+								<li><a href="/introduction/introduce.php">회사소개</a></li>
+								<li><a href="/introduction/business.php">사업영역</a></li>
+								<li><a href="/introduction/location.php">찾아오시는 길</a></li>
 							</ul>
 						</li>
 						<li class="has-child">
@@ -80,7 +80,7 @@
 							<a href="#"><span></span>건축솔루션</a>
 							<ul>
 								<li class="has-child">
-									<a href="#">InnoViva 실험동물실현대화</a>
+									<a href="/construct/animal.php">InnoViva 실험동물실현대화</a>
 									<ul>
 										<li><a href="#">건축프로세스</a></li>
 										<li><a href="#">EcoModel</a></li>
@@ -88,7 +88,7 @@
 									</ul>
 								</li>
 								<li class="has-child">
-									<a href="#">Bio clean room(GMP)</a>
+									<a href="/construct/gmp.php">Bio clean room(GMP)</a>
 									<ul>
 										<li><a href="#">건축프로세스</a></li>
 										<li><a href="#">시공사례</a></li>
@@ -99,10 +99,10 @@
 						<li class="has-child">
 							<a href="#"><span></span>고객지원</a>
 							<ul>
-								<li><a href="#">다운로드</a></li>
-								<li><a href="#">견적요청/건축솔루션컨설팅/기타문의</a></li>
-								<li><a href="#">공지사항</a></li>
-								<li><a href="#">Q&amp;A</a></li>
+								<li><a href="/customer/download.php">다운로드</a></li>
+								<li><a href="/customer/inquire.php">견적요청/건축솔루션컨설팅/기타문의</a></li>
+								<li><a href="/customer/notice_list.php">공지사항</a></li>
+								<li><a href="/customer/qna_list.php">Q&amp;A</a></li>
 							</ul>
 						</li>
 					</ul>

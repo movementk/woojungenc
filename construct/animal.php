@@ -7,7 +7,7 @@
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/top_nav.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/side_nav.php"); ?>
-	<main id="content"  class="animal">
+	<main id="content" class="animal">
 		<div class="page-header">
 			<div class="container">
 				<h2>건축솔루션</h2>

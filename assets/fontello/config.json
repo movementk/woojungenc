@@ -155,6 +155,12 @@
       "css": "attach",
       "code": 61546,
       "src": "mfglabs"
+    },
+    {
+      "uid": "c1f0120c5cb9af80a2f56d7d7fb2f489",
+      "css": "cart",
+      "code": 59406,
+      "src": "zocial"
     }
   ]
 }

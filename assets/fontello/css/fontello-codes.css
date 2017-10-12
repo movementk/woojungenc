@@ -12,9 +12,13 @@
 .icon-location:before { content: '\e80a'; } /* '' */
 .icon-phone:before { content: '\e80b'; } /* '' */
 .icon-mail:before { content: '\e80c'; } /* '' */
+.icon-clock:before { content: '\e80d'; } /* '' */
+.icon-cart:before { content: '\e80e'; } /* '' */
 .icon-right-open:before { content: '\f006'; } /* '' */
 .icon-left-open:before { content: '\f007'; } /* '' */
 .icon-menu:before { content: '\f008'; } /* '' */
+.icon-attach:before { content: '\f06a'; } /* '' */
+.icon-eye:before { content: '\f082'; } /* '' */
 .icon-menu-1:before { content: '\f0c9'; } /* '' */
 .icon-angle-double-left:before { content: '\f100'; } /* '' */
 .icon-angle-double-right:before { content: '\f101'; } /* '' */

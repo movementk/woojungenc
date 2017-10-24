@@ -10,9 +10,10 @@
 	<main id="content" class="inquire">
 		<div class="page-header">
 			<div class="container">
-				<h2><span class="visible-xs">문의</span><span class="hidden-xs">견적요청/건축솔루션컨설팅/기타문의</span></h2>
-				<a class="prev" href="#"><span class="sr-only">이전 메뉴</span></a>
-				<a class="next" href="#"><span class="sr-only">다음 메뉴</span></a>
+				<h2 class="visible-xs">문의</h2>
+				<h2 class="hidden-xs">문의 견적요청/건축솔루션컨설팅/기타문의</h2>
+				<a class="prev" href="/customer/download.php"><span class="sr-only">이전 메뉴</span></a>
+				<a class="next" href="/customer/notice_list.php"><span class="sr-only">다음 메뉴</span></a>
 			</div>
 		</div>
 		<article>

@@ -667,6 +667,11 @@
 							@include transition();
 							&:hover {
 								border: 3px solid #f08501;
+                                .more {
+                                    background-color: #f08501;
+                                    border-color: #f08501;
+                                    color: #fff;
+								}
 							}
 						}
 					}

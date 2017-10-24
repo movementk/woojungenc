@@ -11,7 +11,7 @@
 				<nav class="nav">
 					<ul>
 						<li class="has-child">
-							<a href="#"><span></span>우정 E&amp;C</a>
+							<a href="/introduction/introduce.php"><span></span>우정 E&amp;C</a>
 							<ul>
 								<li><a href="/introduction/introduce.php">회사소개</a></li>
 								<li><a href="/introduction/business.php">사업영역</a></li>
@@ -77,7 +77,7 @@
 							</ul>
 						</li>
 						<li class="has-child">
-							<a href="#"><span></span>건축솔루션</a>
+							<a href="/construct/animal.php"><span></span>건축솔루션</a>
 							<ul>
 								<li>
 									<a href="/construct/animal.php">InnoViva 실험동물실현대화</a>
@@ -88,7 +88,7 @@
 							</ul>
 						</li>
 						<li class="has-child">
-							<a href="#"><span></span>고객지원</a>
+							<a href="/customer/download.php"><span></span>고객지원</a>
 							<ul>
 								<li><a href="/customer/download.php">다운로드</a></li>
 								<li><a href="/customer/inquire.php">견적요청/건축솔루션컨설팅/기타문의</a></li>

@@ -10,8 +10,8 @@
 	<main id="content" class="animal">
 		<div class="page-header">
 			<div class="container">
-				<h2>건축솔루션</h2>
-				<a class="prev" href="/construct/animal.php"><span class="sr-only">이전 메뉴</span></a>
+				<h2>InnoViva 실험동물실현대화</h2>
+				<a class="prev" href="/construct/gmp.php"><span class="sr-only">이전 메뉴</span></a>
 				<a class="next" href="/construct/gmp.php"><span class="sr-only">다음 메뉴</span></a>
 			</div>
 		</div>

@@ -10,9 +10,9 @@
 	<main id="content" class="animal gmp">
 		<div class="page-header">
 			<div class="container">
-				<h2>건축솔루션</h2>
+				<h2>Bio Clean Room(GMP)</h2>
 				<a class="prev" href="/construct/animal.php"><span class="sr-only">이전 메뉴</span></a>
-				<a class="next" href="/construct/gmp.php"><span class="sr-only">다음 메뉴</span></a>
+				<a class="next" href="/construct/animal.php"><span class="sr-only">다음 메뉴</span></a>
 			</div>
 		</div>
 		<div class="overview">

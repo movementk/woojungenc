@@ -901,7 +901,11 @@ a {
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
           #product .product-list .bx-wrapper .bx-viewport ul li:hover {
-            border: 3px solid #f08501; } }
+            border: 3px solid #f08501; }
+            #product .product-list .bx-wrapper .bx-viewport ul li:hover .more {
+              background-color: #f08501;
+              border-color: #f08501;
+              color: #fff; } }
 
 #shortcut {
   padding-top: 60px;

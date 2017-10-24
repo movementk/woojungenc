@@ -11,8 +11,8 @@
 		<div class="page-header">
 			<div class="container">
 				<h2>Q&amp;A</h2>
-				<a class="prev" href="#"><span class="sr-only">이전 메뉴</span></a>
-				<a class="next" href="#"><span class="sr-only">다음 메뉴</span></a>
+				<a class="prev" href="/customer/notice_list.php"><span class="sr-only">이전 메뉴</span></a>
+				<a class="next" href="/customer/download.php"><span class="sr-only">다음 메뉴</span></a>
 			</div>
 		</div>
 		<article>

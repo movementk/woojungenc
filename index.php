@@ -296,6 +296,7 @@
 								
 				if (productContainerWidth >= 750) {
 					productSlider.reloadSlider($.extend(productSliderOpt, productSliderDefaultOpt, {
+                        auto: true, 
 						minSlides: 2,
 						maxSlides: 2,
 						slideWidth: 310,
@@ -314,6 +315,7 @@
 				*/
 				if (productContainerWidth >= 1200) {
 					productSlider.reloadSlider($.extend(productSliderOpt, productSliderDefaultOpt, {
+                        auto: true, 
 						minSlides: 4,
 						maxSlides: 4,
 						slideWidth: 270,

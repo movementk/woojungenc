@@ -55,7 +55,9 @@
                 </div>
                 <div class="btn-area">
                     <p>
-                        <a href="/customer/notice_list.php" class="btn btn-lg btn-orange" role="button">목록으로</a>
+                        <a href="#" class="btn btn-lg btn-orange" role="button">목록으로</a>
+                        <a href="#" class="btn btn-lg btn-gray" role="button">수정하기</a>
+                        <a href="#" class="btn btn-lg btn-gray" role="button">삭제하기</a>
                     </p>
                 </div>
             </div>

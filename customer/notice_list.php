@@ -111,6 +111,11 @@
                             <li class="last"><a href="#"><i class="icon-angle-double-right"></i></a></li>
                         </ul>
                     </nav>
+                    <div class="btn-area">
+                        <p>
+                            <a href="/customer/notice_write.php" class="btn btn-sm btn-orange" role="button">글쓰기</a>
+                        </p>
+                    </div>
                 </div>
             </div>
 		</article>

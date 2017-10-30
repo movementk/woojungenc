@@ -27,15 +27,213 @@
 						<li role="presentation" class="active"><a href="#equipment" aria-controls="equipment" role="tab" data-toggle="tab">장비</a></li>
 						<li role="presentation"><a href="#expendables" aria-controls="expendables" role="tab" data-toggle="tab">소모품</a></li>
 					</ul>
-					<div class="tab-content">
+					<div class="subordinate-list tab-content">
 						<div role="tabpanel" class="tab-pane active" id="equipment">
-							
+                           
+                           
+                           
+                            
+							<div class="sub-category">
+                                <ul class="category-list" role="tablist">
+                                    <li role="presentation" class="active">
+                                        <a href="#tab-list1" aria-controls="tab-list1" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon1.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list2" aria-controls="tab-list2" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon2.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list3" aria-controls="tab-list3" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon3.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list4" aria-controls="tab-list4" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon4.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list5" aria-controls="tab-list5" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon5.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list6" aria-controls="tab-list6" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon6.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list7" aria-controls="tab-list7" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon7.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list8" aria-controls="tab-list8" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon8.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list9" aria-controls="tab-list9" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon9.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list10" aria-controls="tab-list10" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon10.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#tab-list11" aria-controls="tab-list11" role="tab" data-toggle="tab">
+                                            <div class="icon-title">
+                                                <p class="item">
+                                                    <img src="/assets/images/product/category_icon11.png" alt="">
+                                                </p>
+                                                <div class="active-box">
+                                                    하우징<br>
+                                                    시스템
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane active" id="tab-list1">
+                                        1
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list2">
+                                        2
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list3">
+                                        3
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list4">
+                                        4
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list5">
+                                        5
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list6">
+                                        6
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list7">
+                                        7
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list8">
+                                        8
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list9">
+                                        9
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list10">
+                                        10
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane" id="tab-list11">
+                                        11
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            
 						</div>
 						<div role="tabpanel" class="tab-pane" id="expendables">
 							
 						</div>
 					</div>
 				</div>
+				
+				
+				
+				
+				
+				
+				
+				
 			</div>
 		</div>
 		<div class="product-list">
@@ -108,6 +306,11 @@
 						</a>
 					</li>
 				</ul>
+                <div class="btn-area">
+                    <p>
+                        <a href="/product/write.php" class="btn btn-sm btn-orange" role="button">글쓰기</a>
+                    </p>
+                </div>
 			</div>
 		</div>
 	</main>

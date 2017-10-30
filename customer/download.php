@@ -227,6 +227,11 @@
 		                    </tbody>
 		                </table>
 		            </div>
+		            <div class="btn-area">
+		                <p>
+		                    <a href="#" class="btn btn-sm btn-orange" role="button">글쓰기</a>
+		                </p>
+		            </div>
 		            <nav class="page-nav">
                         <ul class="pagination">
                             <li class="first"><a href="#"><i class="icon-angle-double-left"></i></a></li>

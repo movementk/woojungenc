@@ -121,6 +121,29 @@
 			}
 		}
 	}
+    .btn-area {
+        margin-top: 30px;
+        text-align: right;
+        p {
+            .btn-orange {
+                display: inline-block;
+                width: 110px;
+                height: 40px;
+                line-height: 40px;
+                font-size: 13px;
+                color: #fff;
+                padding: 0;
+                background-color: #f08501;
+                @media(min-width: $sm) {
+                    width: 150px;
+                    font-size: 15px;
+                }
+                @media(min-width: $md) {
+                    width: 170px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -251,6 +274,9 @@
                             margin-bottom: 10px;
                             border: 1px solid #fff;
                             background-color: #2b4061;
+                            &:last-child {
+                                margin-bottom: 0;
+                            }
                         }
                         &.btn-white {
                             font-size: 20px;
@@ -287,6 +313,9 @@
                             &.btn-default {
                                 margin: 0;
                                 margin-right: 10px;
+                                &:last-child {
+                                    margin-right: 0;
+                                }
                             }
                             &.btn-white {
                                 width: 70px;
@@ -307,6 +336,13 @@
                 }
                 .btn-area {
                     margin-top: 290px;
+                    p {
+                        .btn {
+                            &.btn-default {
+                                width: 170px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -460,6 +496,273 @@
                         .title {
                             letter-spacing: 0;
                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.product-write {
+    padding-bottom: 100px;
+    @media(min-width: $sm) {
+        padding-bottom: 140px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 150px;
+    }
+    .article-content {
+        padding-top: 60px;
+        .table-warp {
+            .table {
+                border: 0;
+                border-top: 3px solid #949595;
+                tbody {
+                    tr {
+                        th {
+                            width: 100px;
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                            vertical-align: middle;
+                            padding-left: 10px;
+                            border: 0;
+                            border-bottom: 1px solid #dfdfdf;
+                            background-color: #f8f8f8;
+                            label {
+                                font-weight: 400;
+                                margin: 0;
+                            }
+                            &.v-align {
+                                vertical-align: top;
+                                padding-top: 20px;
+                            }
+                            @media(min-width: $sm) {
+                                width: 170px;
+                                font-size: 15px;
+                                padding-left: 30px;
+                            }
+                        }
+                        td {
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 300;
+                            vertical-align: middle;
+                            padding: 10px;
+                            background-color: #fff;
+                            border: 0;
+                            border-bottom: 1px solid #dfdfdf;
+                            .form-group {
+                                margin: 0;
+                                .form-control {
+                                    width: 100%;
+                                    height: 40px;
+                                    border: 1px solid #dfdfdf;
+                                }
+                                ul {
+                                    font-size: 0;
+                                    li {
+                                        display: block;
+                                        ~ li {
+                                            margin-top: 10px;
+                                        }
+                                        dl {
+                                            position: relative;
+                                            dt {
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                                width: 70px;
+                                                font-weight: 300;
+                                                font-size: 13px;
+                                                line-height: 40px;
+                                                color: #333;
+                                                opacity: .6;
+                                                label {
+                                                    font-weight: 300;
+                                                    margin: 0;
+                                                    color: #333;
+                                                }
+                                            }
+                                            dd {
+                                                padding-left: 70px;
+                                                font-size: 13px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.u-content {
+                                .form-group {
+                                    .form-control {
+                                        height: 285px;
+                                    }
+                                }
+                            }
+                            &.file {
+                                .form-group {
+                                    position: relative;
+                                    padding-right: 70px;
+                                    label {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        width: 60px;
+                                        height: 40px;
+                                        font-size: 13px;
+                                        font-weight: 300;
+                                        line-height: 40px;
+                                        color: #fff;
+                                        text-align: center;
+                                        background-color: #aeaeaf;
+                                    }
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                padding: 10px 30px;
+                                .form-group {
+                                    .form-control {
+                                        width: 270px;
+                                    }
+                                    ul {
+                                        li {
+                                            dl {
+                                                dt {
+                                                    font-size: 15px;
+                                                }
+                                                dd {
+                                                    .form-control {
+                                                        width: 100%;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                &.e-mail {
+                                    .form-control {
+                                        width: 100%;
+                                    }
+                                }
+                                &.u-content {
+                                    .form-control {
+                                        width: 100%;
+                                    }
+                                }
+                                &.subject {
+                                    .form-control {
+                                        width: 100%;
+                                    }
+                                }
+                                &.file {
+                                    .form-group {
+                                        padding-right: 155px;
+                                        label {
+                                            width: 135px;
+                                            font-size: 15px;
+                                        }
+                                    }
+                                    .form-control {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                            @media(min-width: $md) {
+                                .form-group {
+                                    ul {
+                                        li {
+                                            display: inline-block;
+                                            width: 33%;
+                                            ~ li {
+                                                margin-top: 0;
+                                            }
+                                            dl {
+                                                dt {
+                                                    width: 75px;
+                                                    font-size: 15px;
+                                                }
+                                                dd {
+                                                    padding-left: 75px;
+                                                    .form-control {
+                                                        width: 140px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            @media(min-width: $lg) {
+                                &.email {
+                                    .form-control {
+                                        width: 470px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .attention {
+                position: relative;
+                font-size: 13px;
+                color: #666;
+                font-weight: 300;
+                padding-left: 15px;
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    content: "*";
+                }
+                @media(min-width: $sm) {
+                    font-size: 14px;
+                }
+                @media(min-width: $md) {
+                    font-size: 15px;
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 50px;
+            text-align: center; 
+            p {
+                font-size: 0;
+                .btn {
+                    display: inline-block;
+                    font-size: 14px;
+                    color: #fff;
+                    font-weight: 300;
+                    text-align: center;
+                    padding: 0;
+                    border-radius: 100px;
+                    margin-right: 10px;
+                    @include transition();
+                    &:hover, &:focus {
+                        opacity: .7;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &.btn-sm {
+                        width: 140px;
+                        height: 48px;
+                        line-height: 48px;
+                    }
+                    &.btn-gray {
+                        background-color: #595757;
+                    }
+                    &.btn-orange {
+                        background-color: #f08501;
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                margin-top: 70px;
+                p {
+                    .btn-sm {
+                        width: 190px !important;
+                        font-size: 18px;
                     }
                 }
             }

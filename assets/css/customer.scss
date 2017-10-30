@@ -1093,6 +1093,14 @@
                                         }
                                     }
                                 }
+                                &.product-choice {
+                                    .form-group {
+                                        display: block;
+                                        & ~ .form-group {
+                                            margin-top: 10px;
+                                        }
+                                    }
+                                }
                                 &.u-content {
                                     .form-group {
                                         .form-control {
@@ -1101,6 +1109,25 @@
                                     }
                                 }
                                 &.file {
+                                    .form-group {
+                                        position: relative;
+                                        padding-right: 70px;
+                                        label {
+                                            position: absolute;
+                                            top: 0;
+                                            right: 0;
+                                            width: 60px;
+                                            height: 40px;
+                                            font-size: 13px;
+                                            font-weight: 300;
+                                            line-height: 40px;
+                                            color: #fff;
+                                            text-align: center;
+                                            background-color: #aeaeaf;
+                                        }
+                                    }
+                                }
+                                &.img-file {
                                     .form-group {
                                         position: relative;
                                         padding-right: 70px;
@@ -1150,12 +1177,36 @@
                                             width: 100%;
                                         }
                                     }
+                                    &.product-choice {
+                                        .form-group {
+                                            display: inline-block;
+                                            & ~ .form-group {
+                                                margin-top: 0;
+                                                margin-left: 8px;
+                                            }
+                                            .form-control {
+                                                width: 150px;
+                                            }
+                                        }
+                                    }
                                     &.subject {
                                         .form-control {
                                             width: 100%;
                                         }
                                     }
                                     &.file {
+                                        .form-group {
+                                            padding-right: 155px;
+                                            label {
+                                                width: 135px;
+                                                font-size: 15px;
+                                            }
+                                        }
+                                        .form-control {
+                                            width: 100%;
+                                        }
+                                    }
+                                    &.img-file {
                                         .form-group {
                                             padding-right: 155px;
                                             label {
@@ -1189,6 +1240,13 @@
                                                         }
                                                     }
                                                 }
+                                            }
+                                        }
+                                    }
+                                    &.product-choice {
+                                        .form-group {
+                                            .form-control {
+                                                width: 240px;
                                             }
                                         }
                                     }
@@ -1417,7 +1475,7 @@
         }
         .article-header {
             text-align: center;
-            padding: 50px 0;
+            padding-bottom: 50px 0;
             p {
                 font-size: 16px;
                 color: #555;
@@ -1432,6 +1490,69 @@
             }
             @media(min-width: $md) {
                 padding: 60px 0;
+            }
+        }
+        .search-form {
+            padding-bottom: 22px;
+            .form-group {
+                position: relative;
+                padding-left: 120px;
+                .form-control {
+                    height: 35px;
+                    border: 1px solid #dfdfdf;
+                }
+                select {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 110px;
+                }
+                input {
+                    width: 100%;
+                    padding-right: 35px;
+                }
+                .btn-search {
+                    position: absolute;
+                    top: 1px;
+                    right: 1px;
+                    .btn-default {
+                        width: 35px;
+                        height: 33px;
+                        text-align: center;
+                        line-height: 33px;
+                        padding: 0;
+                        font-size: 15px;
+                        color: #e10316;
+                        border: 0;
+                        border-radius: 0;
+                        background-color: #fff !important;
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                padding-bottom: 50px;
+                .form-group {
+                    width: 500px;
+                    display: block;
+                    margin: 0 auto;
+                    padding-left: 150px;
+                    select {
+                        width: 130px;
+                    }
+                    input {
+                        padding-right: 40px;
+                    }
+                    .form-control {
+                        height: 40px;
+                    }
+                    .btn-search {
+                        .btn-default {
+                            width: 40px;
+                            height: 38px;
+                            line-height: 38px;
+                        }
+                    }
+                }
             }
         }
         .article-content {
@@ -1584,7 +1705,69 @@
     }
 }
 
-
+// 비밀번호 확인
+.pw-confirm {
+    padding: 80px 0 140px;
+    @media(min-width: $sm) {
+        padding: 60px 0 130px;
+    }
+    @media(min-width: $md) {
+        padding: 60px 0 170px;
+    }
+    .article-content {
+        text-align: center;
+        padding: 50px 20px 70px;
+        border: 1px solid #dfdfdf;
+        background-color: #fafafa;
+        @media(min-width: $sm) {
+            padding: 80px 0;
+        }
+        @media(min-width: $lg) {
+            padding: 100px 0;
+        }
+        h4 {
+            font-size: 13px;
+            color: #333;
+            font-weight: 400;
+            line-height: 24px;
+            padding-top: 122px;
+            background-image: url(/assets/images/customer/confirm_lock_bg.png);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: 67px auto;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                padding-top: 155px;
+                background-size: 95px auto;
+            }
+        }
+        .form-group {
+            padding: 30px 0 10px;
+            .form-control {
+                margin: 0 auto;
+                @media(min-width: $sm) {
+                    width: 370px;
+                }
+            }
+        }
+        .btn-area {
+            p {
+                .btn-orange {
+                    width: 100%;
+                    color: #fff;
+                    background-color: #f08501;
+                    @include transition();
+                    @media(min-width: $sm) {
+                        width: 370px;
+                    }
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

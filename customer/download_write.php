@@ -31,10 +31,31 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th><label for="p-file">파일종류</label></th>
-                                        <td>
+                                        <th>제품사진</th>
+                                        <td class="img-file">
                                             <div class="form-group">
-                                                <input type="text" id="p-file" class="form-control">
+                                                <input type="file" id="img-attach" class="form-control">
+                                                <label for="img-attach">찾아보기</label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="v-align">제품선택</th>
+                                        <td class="product-choice">
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>선택</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>선택</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>선택</option>
+                                                </select>
                                             </div>
                                         </td>
                                     </tr>

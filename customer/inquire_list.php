@@ -23,6 +23,26 @@
 		            빠르고 친절하게 답변드리겠습니다.
 		        </p>
 		    </div>
+            <div class="search-form">
+                <div class="container">
+                    <form action="#">
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option>전체</option>
+                            </select>
+                            <input type="text" id="search" class="form-control">
+                            <label for="search" class="sr-only">검색</label>
+                            <p class="btn-search">
+                                <button type="submit" class="btn btn-default">
+                                    <i class="icon-search">
+                                        <span class="sr-only">검색버튼</span>
+                                    </i>
+                                </button>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
             <div class="article-content">
                 <div class="container">
                     <ul class="list">

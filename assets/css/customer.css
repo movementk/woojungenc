@@ -1201,12 +1201,31 @@ a {
               .common-write article .article-content .table-warp .table tbody tr td .form-group ul li dl dd {
                 padding-left: 70px;
                 font-size: 13px; }
+      .common-write article .article-content .table-warp .table tbody tr td.product-choice .form-group {
+        display: block; }
+        .common-write article .article-content .table-warp .table tbody tr td.product-choice .form-group ~ .form-group {
+          margin-top: 10px; }
       .common-write article .article-content .table-warp .table tbody tr td.u-content .form-group .form-control {
         height: 285px; }
       .common-write article .article-content .table-warp .table tbody tr td.file .form-group {
         position: relative;
         padding-right: 70px; }
         .common-write article .article-content .table-warp .table tbody tr td.file .form-group label {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 60px;
+          height: 40px;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 40px;
+          color: #fff;
+          text-align: center;
+          background-color: #aeaeaf; }
+      .common-write article .article-content .table-warp .table tbody tr td.img-file .form-group {
+        position: relative;
+        padding-right: 70px; }
+        .common-write article .article-content .table-warp .table tbody tr td.img-file .form-group label {
           position: absolute;
           top: 0;
           right: 0;
@@ -1231,6 +1250,13 @@ a {
             width: 100%; }
           .common-write article .article-content .table-warp .table tbody tr td.u-content .form-control {
             width: 100%; }
+          .common-write article .article-content .table-warp .table tbody tr td.product-choice .form-group {
+            display: inline-block; }
+            .common-write article .article-content .table-warp .table tbody tr td.product-choice .form-group ~ .form-group {
+              margin-top: 0;
+              margin-left: 8px; }
+            .common-write article .article-content .table-warp .table tbody tr td.product-choice .form-group .form-control {
+              width: 150px; }
           .common-write article .article-content .table-warp .table tbody tr td.subject .form-control {
             width: 100%; }
           .common-write article .article-content .table-warp .table tbody tr td.file .form-group {
@@ -1239,6 +1265,13 @@ a {
               width: 135px;
               font-size: 15px; }
           .common-write article .article-content .table-warp .table tbody tr td.file .form-control {
+            width: 100%; }
+          .common-write article .article-content .table-warp .table tbody tr td.img-file .form-group {
+            padding-right: 155px; }
+            .common-write article .article-content .table-warp .table tbody tr td.img-file .form-group label {
+              width: 135px;
+              font-size: 15px; }
+          .common-write article .article-content .table-warp .table tbody tr td.img-file .form-control {
             width: 100%; } }
       @media (min-width: 992px) {
         .common-write article .article-content .table-warp .table tbody tr td .form-group ul li {
@@ -1252,7 +1285,9 @@ a {
           .common-write article .article-content .table-warp .table tbody tr td .form-group ul li dl dd {
             padding-left: 75px; }
             .common-write article .article-content .table-warp .table tbody tr td .form-group ul li dl dd .form-control {
-              width: 140px; } }
+              width: 140px; }
+        .common-write article .article-content .table-warp .table tbody tr td.product-choice .form-group .form-control {
+          width: 240px; } }
       @media (min-width: 1280px) {
         .common-write article .article-content .table-warp .table tbody tr td.email .form-control {
           width: 470px; } }
@@ -1414,7 +1449,7 @@ a {
       padding-bottom: 140px; } }
   .inquire-list article .article-header {
     text-align: center;
-    padding: 50px 0; }
+    padding-bottom: 50px 0; }
     .inquire-list article .article-header p {
       font-size: 16px;
       color: #555;
@@ -1428,6 +1463,55 @@ a {
     @media (min-width: 992px) {
       .inquire-list article .article-header {
         padding: 60px 0; } }
+  .inquire-list article .search-form {
+    padding-bottom: 22px; }
+    .inquire-list article .search-form .form-group {
+      position: relative;
+      padding-left: 120px; }
+      .inquire-list article .search-form .form-group .form-control {
+        height: 35px;
+        border: 1px solid #dfdfdf; }
+      .inquire-list article .search-form .form-group select {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 110px; }
+      .inquire-list article .search-form .form-group input {
+        width: 100%;
+        padding-right: 35px; }
+      .inquire-list article .search-form .form-group .btn-search {
+        position: absolute;
+        top: 1px;
+        right: 1px; }
+        .inquire-list article .search-form .form-group .btn-search .btn-default {
+          width: 35px;
+          height: 33px;
+          text-align: center;
+          line-height: 33px;
+          padding: 0;
+          font-size: 15px;
+          color: #e10316;
+          border: 0;
+          border-radius: 0;
+          background-color: #fff !important; }
+    @media (min-width: 768px) {
+      .inquire-list article .search-form {
+        padding-bottom: 50px; }
+        .inquire-list article .search-form .form-group {
+          width: 500px;
+          display: block;
+          margin: 0 auto;
+          padding-left: 150px; }
+          .inquire-list article .search-form .form-group select {
+            width: 130px; }
+          .inquire-list article .search-form .form-group input {
+            padding-right: 40px; }
+          .inquire-list article .search-form .form-group .form-control {
+            height: 40px; }
+          .inquire-list article .search-form .form-group .btn-search .btn-default {
+            width: 40px;
+            height: 38px;
+            line-height: 38px; } }
   .inquire-list article .article-content .list {
     width: 100%;
     border-top: 3px solid #595757; }
@@ -1544,5 +1628,64 @@ a {
     @media (min-width: 768px) {
       .inquire-list article .article-content .pagination {
         margin-top: 60px; } }
+
+.pw-confirm {
+  padding: 80px 0 140px; }
+  @media (min-width: 768px) {
+    .pw-confirm {
+      padding: 60px 0 130px; } }
+  @media (min-width: 992px) {
+    .pw-confirm {
+      padding: 60px 0 170px; } }
+  .pw-confirm .article-content {
+    text-align: center;
+    padding: 50px 20px 70px;
+    border: 1px solid #dfdfdf;
+    background-color: #fafafa; }
+    @media (min-width: 768px) {
+      .pw-confirm .article-content {
+        padding: 80px 0; } }
+    @media (min-width: 1280px) {
+      .pw-confirm .article-content {
+        padding: 100px 0; } }
+    .pw-confirm .article-content h4 {
+      font-size: 13px;
+      color: #333;
+      font-weight: 400;
+      line-height: 24px;
+      padding-top: 122px;
+      background-image: url(/assets/images/customer/confirm_lock_bg.png);
+      background-repeat: no-repeat;
+      background-position: 50% 0;
+      background-size: 67px auto; }
+      @media (min-width: 768px) {
+        .pw-confirm .article-content h4 {
+          font-size: 16px;
+          padding-top: 155px;
+          background-size: 95px auto; } }
+    .pw-confirm .article-content .form-group {
+      padding: 30px 0 10px; }
+      .pw-confirm .article-content .form-group .form-control {
+        margin: 0 auto; }
+        @media (min-width: 768px) {
+          .pw-confirm .article-content .form-group .form-control {
+            width: 370px; } }
+    .pw-confirm .article-content .btn-area p .btn-orange {
+      width: 100%;
+      color: #fff;
+      background-color: #f08501;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      @media (min-width: 768px) {
+        .pw-confirm .article-content .btn-area p .btn-orange {
+          width: 370px; } }
+      .pw-confirm .article-content .btn-area p .btn-orange:hover {
+        opacity: .7; }
 
 /*# sourceMappingURL=customer.css.map */

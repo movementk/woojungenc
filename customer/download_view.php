@@ -7,15 +7,15 @@
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/top_nav.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/side_nav.php"); ?>
-	<main id="content" class="common-view notice-view">
+	<main id="content" class="common-view download-view">
 		<div class="page-header">
 			<div class="container">
-				<h2>Q&amp;A</h2>
-				<a class="prev" href="/customer/notice_list.php"><span class="sr-only">이전 메뉴</span></a>
-				<a class="next" href="/customer/download.php"><span class="sr-only">다음 메뉴</span></a>
+				<h2>다운로드</h2>
+				<a class="prev" href="/customer/qna_list.php"><span class="sr-only">이전 메뉴</span></a>
+				<a class="next" href="/customer/inquire.php"><span class="sr-only">다음 메뉴</span></a>
 			</div>
 		</div>
-        <div class="view-content">
+		<div class="view-content">
             <div class="container">
                 <article>
                     <div class="article-header">

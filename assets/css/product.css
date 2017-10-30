@@ -495,6 +495,25 @@ a {
       clear: none; }
     .product-list ul li:nth-of-type(3n+1) {
       clear: both; } }
+.product-list .btn-area {
+  margin-top: 30px;
+  text-align: right; }
+  .product-list .btn-area p .btn-orange {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+    color: #fff;
+    padding: 0;
+    background-color: #f08501; }
+    @media (min-width: 768px) {
+      .product-list .btn-area p .btn-orange {
+        width: 150px;
+        font-size: 15px; } }
+    @media (min-width: 992px) {
+      .product-list .btn-area p .btn-orange {
+        width: 170px; } }
 
 .product-view {
   padding-bottom: 100px; }
@@ -599,6 +618,8 @@ a {
             margin-bottom: 10px;
             border: 1px solid #fff;
             background-color: #2b4061; }
+            .product-view .product-promotion .product-purchase .btn-area p .btn.btn-default:last-child {
+              margin-bottom: 0; }
           .product-view .product-promotion .product-purchase .btn-area p .btn.btn-white {
             font-size: 20px;
             line-height: 50px;
@@ -626,6 +647,8 @@ a {
               .product-view .product-promotion .product-purchase .btn-area p .btn.btn-default {
                 margin: 0;
                 margin-right: 10px; }
+                .product-view .product-promotion .product-purchase .btn-area p .btn.btn-default:last-child {
+                  margin-right: 0; }
               .product-view .product-promotion .product-purchase .btn-area p .btn.btn-white {
                 width: 70px; } }
       @media (min-width: 1280px) {
@@ -639,7 +662,9 @@ a {
             font-size: 33px;
             margin-bottom: 20px; }
           .product-view .product-promotion .product-purchase .btn-area {
-            margin-top: 290px; } }
+            margin-top: 290px; }
+            .product-view .product-promotion .product-purchase .btn-area p .btn.btn-default {
+              width: 170px; } }
     @media (min-width: 1280px) {
       .product-view .product-promotion {
         font-size: 0;
@@ -745,5 +770,192 @@ a {
           margin-top: 40px; }
           .product-view .product-infor article .infor-2 .details .title {
             letter-spacing: 0; } }
+
+.product-write {
+  padding-bottom: 100px; }
+  @media (min-width: 768px) {
+    .product-write {
+      padding-bottom: 140px; } }
+  @media (min-width: 992px) {
+    .product-write {
+      padding-bottom: 150px; } }
+  .product-write .article-content {
+    padding-top: 60px; }
+    .product-write .article-content .table-warp .table {
+      border: 0;
+      border-top: 3px solid #949595; }
+      .product-write .article-content .table-warp .table tbody tr th {
+        width: 100px;
+        font-size: 13px;
+        color: #333;
+        font-weight: 400;
+        vertical-align: middle;
+        padding-left: 10px;
+        border: 0;
+        border-bottom: 1px solid #dfdfdf;
+        background-color: #f8f8f8; }
+        .product-write .article-content .table-warp .table tbody tr th label {
+          font-weight: 400;
+          margin: 0; }
+        .product-write .article-content .table-warp .table tbody tr th.v-align {
+          vertical-align: top;
+          padding-top: 20px; }
+        @media (min-width: 768px) {
+          .product-write .article-content .table-warp .table tbody tr th {
+            width: 170px;
+            font-size: 15px;
+            padding-left: 30px; } }
+      .product-write .article-content .table-warp .table tbody tr td {
+        font-size: 13px;
+        color: #333;
+        font-weight: 300;
+        vertical-align: middle;
+        padding: 10px;
+        background-color: #fff;
+        border: 0;
+        border-bottom: 1px solid #dfdfdf; }
+        .product-write .article-content .table-warp .table tbody tr td .form-group {
+          margin: 0; }
+          .product-write .article-content .table-warp .table tbody tr td .form-group .form-control {
+            width: 100%;
+            height: 40px;
+            border: 1px solid #dfdfdf; }
+          .product-write .article-content .table-warp .table tbody tr td .form-group ul {
+            font-size: 0; }
+            .product-write .article-content .table-warp .table tbody tr td .form-group ul li {
+              display: block; }
+              .product-write .article-content .table-warp .table tbody tr td .form-group ul li ~ li {
+                margin-top: 10px; }
+              .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl {
+                position: relative; }
+                .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dt {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 70px;
+                  font-weight: 300;
+                  font-size: 13px;
+                  line-height: 40px;
+                  color: #333;
+                  opacity: .6; }
+                  .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dt label {
+                    font-weight: 300;
+                    margin: 0;
+                    color: #333; }
+                .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dd {
+                  padding-left: 70px;
+                  font-size: 13px; }
+        .product-write .article-content .table-warp .table tbody tr td.u-content .form-group .form-control {
+          height: 285px; }
+        .product-write .article-content .table-warp .table tbody tr td.file .form-group {
+          position: relative;
+          padding-right: 70px; }
+          .product-write .article-content .table-warp .table tbody tr td.file .form-group label {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 40px;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 40px;
+            color: #fff;
+            text-align: center;
+            background-color: #aeaeaf; }
+        @media (min-width: 768px) {
+          .product-write .article-content .table-warp .table tbody tr td {
+            padding: 10px 30px; }
+            .product-write .article-content .table-warp .table tbody tr td .form-group .form-control {
+              width: 270px; }
+            .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dt {
+              font-size: 15px; }
+            .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dd .form-control {
+              width: 100%; }
+            .product-write .article-content .table-warp .table tbody tr td.e-mail .form-control {
+              width: 100%; }
+            .product-write .article-content .table-warp .table tbody tr td.u-content .form-control {
+              width: 100%; }
+            .product-write .article-content .table-warp .table tbody tr td.subject .form-control {
+              width: 100%; }
+            .product-write .article-content .table-warp .table tbody tr td.file .form-group {
+              padding-right: 155px; }
+              .product-write .article-content .table-warp .table tbody tr td.file .form-group label {
+                width: 135px;
+                font-size: 15px; }
+            .product-write .article-content .table-warp .table tbody tr td.file .form-control {
+              width: 100%; } }
+        @media (min-width: 992px) {
+          .product-write .article-content .table-warp .table tbody tr td .form-group ul li {
+            display: inline-block;
+            width: 33%; }
+            .product-write .article-content .table-warp .table tbody tr td .form-group ul li ~ li {
+              margin-top: 0; }
+            .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dt {
+              width: 75px;
+              font-size: 15px; }
+            .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dd {
+              padding-left: 75px; }
+              .product-write .article-content .table-warp .table tbody tr td .form-group ul li dl dd .form-control {
+                width: 140px; } }
+        @media (min-width: 1280px) {
+          .product-write .article-content .table-warp .table tbody tr td.email .form-control {
+            width: 470px; } }
+    .product-write .article-content .table-warp .attention {
+      position: relative;
+      font-size: 13px;
+      color: #666;
+      font-weight: 300;
+      padding-left: 15px; }
+      .product-write .article-content .table-warp .attention:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "*"; }
+      @media (min-width: 768px) {
+        .product-write .article-content .table-warp .attention {
+          font-size: 14px; } }
+      @media (min-width: 992px) {
+        .product-write .article-content .table-warp .attention {
+          font-size: 15px; } }
+    .product-write .article-content .btn-area {
+      margin-top: 50px;
+      text-align: center; }
+      .product-write .article-content .btn-area p {
+        font-size: 0; }
+        .product-write .article-content .btn-area p .btn {
+          display: inline-block;
+          font-size: 14px;
+          color: #fff;
+          font-weight: 300;
+          text-align: center;
+          padding: 0;
+          border-radius: 100px;
+          margin-right: 10px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .product-write .article-content .btn-area p .btn:hover, .product-write .article-content .btn-area p .btn:focus {
+            opacity: .7; }
+          .product-write .article-content .btn-area p .btn:last-child {
+            margin-right: 0; }
+          .product-write .article-content .btn-area p .btn.btn-sm {
+            width: 140px;
+            height: 48px;
+            line-height: 48px; }
+          .product-write .article-content .btn-area p .btn.btn-gray {
+            background-color: #595757; }
+          .product-write .article-content .btn-area p .btn.btn-orange {
+            background-color: #f08501; }
+      @media (min-width: 768px) {
+        .product-write .article-content .btn-area {
+          margin-top: 70px; }
+          .product-write .article-content .btn-area p .btn-sm {
+            width: 190px !important;
+            font-size: 18px; } }
 
 /*# sourceMappingURL=product.css.map */

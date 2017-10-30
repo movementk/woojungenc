@@ -63,12 +63,8 @@
                         <div class="btn-area">
                             <p>
                                 <a href="#" class="btn btn-lg btn-default" role="button">견적문의</a>
-                                <a href="#" class="btn btn-lg btn-default" role="button">바로구매</a>
-                                <a href="#" class="btn btn-lg btn-white" role="button">
-                                    <i class="icon-cart">
-                                        <span class="sr-only">장바구니 담기</span>
-                                    </i>
-                                </a>
+                                <a href="#" class="btn btn-lg btn-default" role="button">수정하기</a>
+                                <a href="#" class="btn btn-lg btn-default" role="button">삭제하기</a>
                             </p>
                         </div>
                     </div>
